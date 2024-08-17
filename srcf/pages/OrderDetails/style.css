@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .subtitle {
+    color: gray;
+  }
+  
+  .menuTitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .orderList {
+    margin-top: 20px;
+  }
+  
+
+  .page {
+    flex: 1;
+  }
+  
+  .iconContainer {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    aspect-ratio: 5 / 3; /* Use this for modern browsers; for wider support, use a combination of width and padding-bottom */
+  }
+  
+  .title {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .menuTitle {
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+    color: #525252;
+  }
+  
+  .container {
+    margin: 10px;
+  }
+  

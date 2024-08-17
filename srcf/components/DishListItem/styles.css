@@ -1,0 +1,31 @@
+/* DishListItem Styles.css */
+.container {
+    padding: 10px 0;
+    margin: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  
+  .name {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .description {
+    color: gray;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-size: 16px;
+  }
+  
+  .image {
+    height: 75px;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  

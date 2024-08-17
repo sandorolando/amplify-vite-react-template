@@ -1,0 +1,41 @@
+.page {
+    width: 100%;
+    padding: 40px 10px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .itemHeader {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 19px;
+  }
+  
+  .basket-items {
+    margin-top: 10px;
+  }
+  
+  .separator {
+    height: 1px;
+    background-color: lightgrey;
+    margin: 10px 0;
+  }
+  
+  .button {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .buttonText {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  

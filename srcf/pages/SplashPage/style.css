@@ -1,0 +1,199 @@
+/* Base Styles */
+.splash-page {
+    position: relative; /* Ensures the splash-page div can contain positioned children */
+    min-height: 100vh; /* Ensures it takes up at least the full viewport height */
+    overflow: hidden;
+}
+
+.hero {
+    position: relative; /* Ensures the hero content can be positioned relative to splash-page */
+    min-height: 100vh; /* Ensure it takes up the full viewport height */
+    overflow: hidden;
+}
+
+.background {
+    width: 100%; /* Ensures the background covers the entire hero width */
+    height: 100%; /* Ensures the background covers the entire hero height */
+    object-fit: cover; /* Scales the image or video to cover the entire container */
+    position: absolute; /* Positions the background within the hero */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensures the background is behind the content */
+}
+
+.hero-logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo-img {
+    max-width: 100%; /* Prevents image from exceeding container width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.hero-text {
+    position: absolute;
+    top: calc(10% + 300px); /* Increase the spacing by adjusting the value here */
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 5vw; /* Responsive font size */
+    font-weight: bold; /* Make the text bold */
+    line-height: 2; /* Responsive line-height */
+    text-align: center; /* Center the text */
+}
+
+.hero-text h1 {
+    font-size: 3vw; /* Ensure this size is applied to the h1 */
+    margin: 0; /* Remove default margins */
+    font-weight: bold; /* Ensure bold text */
+}
+
+
+.hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 5%; /* Responsive gap */
+    width: fit-content;
+    margin-top: 5vh; /* Responsive margin-top */
+    padding: 2% 5%; /* Responsive padding */
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.hero-explore p {
+    color: #282828;
+    font-size: 1.5rem; /* Responsive font size */
+    font-weight: 500;
+}
+
+.hero-dot-play {
+    margin-top: 10vh; /* Responsive margin-top */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-dots {
+    position: absolute;
+    bottom: 5rem; /* Space above the hero-play element, adjust as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Increased gap for more space between dots */
+    list-style: none;
+}
+
+.hero-dot {
+    width: 20px; /* Fixed width */
+    height: 20px; /* Fixed height */
+    background-color: #fff;
+    border-radius: 50%; /* Ensures circular shape */
+    cursor: pointer;
+}
+
+.hero-dot.orange {
+    background: orangered;
+}
+
+.hero-play {
+    position: absolute;
+    bottom: 10%; /* Position at the bottom */
+    right: 10%;  /* Position at the right */
+    margin: 1rem; /* Adds spacing from the edges */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Responsive gap */
+}
+
+.hero-play p {
+    color: #fff;
+    margin: 0; /* Ensures no extra margin around the text */
+}
+
+
+
+
+
+/* Email Capture Styles */
+.email-capture {
+    position: absolute; /* Absolute positioning */
+    top: 60%; /* Position 60% from the top of the hero section */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 80%; /* Adjust as needed */
+}
+
+.email-capture form {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5%; /* Responsive padding */
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.email-capture input {
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.email-capture button {
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-capture button:hover {
+    background-color: darkorange;
+}
+
+.email-capture p {
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+
+/* Footer Styles */
+.footer {
+    padding: 2rem;
+    background-color: #000;
+    text-align: center;
+}
+
+
+
+
+
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px; /* adjust width as needed */
+  height: auto;
+}

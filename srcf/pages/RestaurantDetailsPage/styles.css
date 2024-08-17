@@ -1,0 +1,38 @@
+.page {
+    display: flex;
+    flex: 1;
+  }
+  
+  .iconContainer {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    aspect-ratio: 5 / 3;
+  }
+  
+  .title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .menuTitle {
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+    color: #525252;
+  }
+  
+  .container {
+    margin: 10px;
+  }
+  
