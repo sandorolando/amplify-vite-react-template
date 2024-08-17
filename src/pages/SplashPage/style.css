@@ -109,7 +109,7 @@
 
 .hero-play {
     position: absolute;
-    bottom: 10%; 
+    top: 10%; 
     right: 10%;  /* Position at the right */
     margin: 1rem; /* Adds spacing from the edges */
     display: flex;
