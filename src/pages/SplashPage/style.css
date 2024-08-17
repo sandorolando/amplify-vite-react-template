@@ -46,12 +46,14 @@
     font-weight: bold; /* Make the text bold */
     line-height: 2; /* Responsive line-height */
     text-align: center; /* Center the text */
+    
 }
 
 .hero-text h1 {
     font-size: 3vw; /* Ensure this size is applied to the h1 */
     margin: 0; /* Remove default margins */
     font-weight: bold; /* Ensure bold text */
+    margin-bottom: 20vh; /* Adds margin-bottom to create space */
 }
 
 
@@ -81,13 +83,14 @@
 
 .hero-dots {
     position: absolute;
-    bottom: 5rem; /* Space above the hero-play element, adjust as needed */
+    bottom: 15vh; /* Adjust this value to place it between email-capture and footer */
     left: 50%;
     transform: translateX(-50%); /* Center horizontally */
     display: flex;
     align-items: center;
     gap: 20px; /* Increased gap for more space between dots */
     list-style: none;
+
 }
 
 .hero-dot {
@@ -102,9 +105,11 @@
     background: orangered;
 }
 
+
+
 .hero-play {
     position: absolute;
-    bottom: 10%; /* Position at the bottom */
+    bottom: 10%; 
     right: 10%;  /* Position at the right */
     margin: 1rem; /* Adds spacing from the edges */
     display: flex;
@@ -124,7 +129,7 @@
 /* Email Capture Styles */
 .email-capture {
     position: absolute; /* Absolute positioning */
-    top: 60%; /* Position 60% from the top of the hero section */
+    top: 65%; /* Position 60% from the top of the hero section */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     display: flex;
@@ -182,6 +187,7 @@
     padding: 2rem;
     background-color: #000;
     text-align: center;
+    color: #fff; /* Make the font white */
 }
 
 
