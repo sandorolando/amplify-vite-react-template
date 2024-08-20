@@ -1,7 +1,6 @@
 import { useAuthenticator } from '@aws-amplify/ui-react';
-import RestaurantItem from '../RestaurantItem';
 
-const ProtectedRoute = ({ children, restaurant }: { children: JSX.Element, restaurant: RestaurantItemProps }) => {
+const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
   const { authStatus } = useAuthenticator();
 
   if (authStatus === 'authenticated') {
@@ -10,8 +9,8 @@ const ProtectedRoute = ({ children, restaurant }: { children: JSX.Element, resta
 
   return (
     <div>
-      <h1>hUCK</h1>
-      <RestaurantItem restaurant={restaurant} />
+      <h1>Please register or sign in.</h1>
+      <p>You need an account to access this page.</p>
     </div>
   );
 };

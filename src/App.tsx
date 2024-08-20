@@ -12,23 +12,23 @@ Amplify.configure(outputs);
 const App = () => {
   return (
     <Routes>
-    <Route path="/" element={<SplashPage />} />
-    <Route
-      path="/home"
-      element={
-        <Authenticator>
-          {({ signOut, user }) => (
-            <div> {/* Added a wrapper <div> here */}
-              <HomePage />
-              <button onClick={signOut}>Sign out</button>
-            </div>
-          )}
-        </Authenticator>
-      }
-    />
-    <Route path="/register" element={<RegisterPage />} />
-  </Routes>
-);
+      <Route path="/" element={<SplashPage />} />
+      <Route
+        path="/home"
+        element={
+          <Authenticator>
+            {({ signOut, user }) => (
+              <div>
+                <HomePage />
+                <button onClick={signOut}>Sign out</button>
+              </div>
+            )}
+          </Authenticator>
+        }
+      />
+      <Route path="/register" element={<RegisterPage />} />
+    </Routes>
+  );
 };
 
 export default App;
