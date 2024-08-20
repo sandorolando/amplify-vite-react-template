@@ -104,6 +104,3 @@ const SplashPage: React.FC = () => {
 };
 
 export default SplashPage;
-
-
-console.log("Rendering SplashPage");

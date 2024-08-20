@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react';
 //import { Auth, DataStore } from 'aws-amplify';
 //import { User } from '../../models';
 
-import { useAuthContext } from '../../contexts/AuthContext';
-
-
+import { useAuthContext } from '../../../srcf/contexts/AuthContext';
 
 import { useNavigate } from 'react-router-dom';
 import "./style.css"

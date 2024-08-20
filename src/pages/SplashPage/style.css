@@ -125,11 +125,10 @@
 
 
 
-
 /* Email Capture Styles */
 .email-capture {
     position: absolute; /* Absolute positioning */
-    top: 65%; /* Position 60% from the top of the hero section */
+    top: 65%; /* Position 65% from the top of the hero section */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     display: flex;
@@ -137,6 +136,7 @@
     align-items: center;
     gap: 1rem;
     width: 80%; /* Adjust as needed */
+    z-index: 10; /* Ensure it stays above other elements */
 }
 
 .email-capture form {
@@ -155,30 +155,33 @@
     padding: 1rem;
     border-radius: 50px;
     border: none;
-    font-size: 2rem;
+    font-size: 1rem;
     width: 100%;
 }
 
 .email-capture button {
+    position: relative;
+    top: 25px;
     padding: 1rem 2rem;
     border-radius: 100px;
     border: none;
     background-color: orangered;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
 
-.email-capture button:hover {
+.email-capture .splash-button:hover {
     background-color: darkorange;
 }
 
 .email-capture p {
     color: #fff;
     font-size: 2rem;
+    margin-bottom: 1rem; /* Ensure there's space between the text and form */
 }
-
 
 
 

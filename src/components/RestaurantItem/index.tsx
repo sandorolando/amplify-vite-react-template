@@ -1,8 +1,13 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./style.css"; 
+import "./style.css";
+import { Restaurant } from "../../models/types"
 
-const RestaurantItem = ({ restaurant }) => {
+
+type RestaurantItemProps = {
+  restaurant: Restaurant;
+};
+
+const RestaurantItem: React.FC<RestaurantItemProps> = ({ restaurant }) => {
   const navigate = useNavigate();
 
   const onPress = () => {
