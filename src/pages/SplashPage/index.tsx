@@ -14,7 +14,7 @@ interface HeroData {
 const heroData: HeroData[] = [
     { text1: "Easily. Enjoy. Eating." },
     { text1: "Building Community through Food." },
-    { text1: "Technology to benefiting drivers, restaurants, and customers equally." },
+    { text1: "Technology benefiting drivers, restaurants, and customers equally." },
 ];
 
 const SplashPage: React.FC = () => {
